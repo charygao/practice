@@ -51,6 +51,13 @@ export PKG_CONFIG_PATH=$HOME/local/lib/pkgconfig
 
 ```
 
+> centos从系统源安装
+
+```sbtshell
+# centos7
+yum install tesseract
+```
+
 ### 2. 参考
 [linux系统如何使用tess4j（java）进行ocr图片文字识别](https://blog.csdn.net/zhongshanb/article/details/72731487)
 
