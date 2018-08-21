@@ -36,12 +36,17 @@ LIBLEPT_HEADERSDIR=$HOME/local/include ./configure \
   --prefix=$HOME/local/ --with-extra-libraries=$HOME/local/lib
 make
 make install
-# 3.同上下载leptonica4.0.5
+# 4.同上下载tesseract3.05
 ./autobuild   # 版本不同,命令可能不同
 ./configure --prefix=$HOME/local/
 make
 make install
-# 4.配置环境变量PKG_CONFIG_PATH(别忘记哦)
+
+# 5. train tool
+make training
+make training-install
+
+# 3.配置环境变量PKG_CONFIG_PATH(别忘记哦)
 export PKG_CONFIG_PATH=$HOME/local/lib/pkgconfig
 
 ```
