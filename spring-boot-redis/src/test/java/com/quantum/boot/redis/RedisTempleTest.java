@@ -15,8 +15,6 @@ import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import static java.lang.annotation.ElementType.TYPE;
-
 /**
  * Created by zqq on 18-8-26.
  */
