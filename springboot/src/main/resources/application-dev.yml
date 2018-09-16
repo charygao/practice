@@ -1,0 +1,8 @@
+fast-text:
+    model-path: /opt/app/fasttext/geek-model-v1.bin
+
+logging:
+  level: debug
+  level.com.quantum: debug
+  path: ./log/
+  file: api.log

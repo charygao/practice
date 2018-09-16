@@ -1,8 +1,10 @@
 # practice
 
 ### tesseract
-[README](tree/master/tesseract)
+ocr
 
-linux java ocr
+### jedis-pool
+redis client
 
 ### spring-boot-redis
+redisTemple

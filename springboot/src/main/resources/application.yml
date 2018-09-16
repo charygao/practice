@@ -1,0 +1,20 @@
+# Tomcat
+server:
+    tomcat:
+        uri-encoding: UTF-8
+        max-threads: 200
+        min-spare-threads: 15
+    port: 8080
+    servlet:
+        context-path: /safety-api
+
+# mysql
+spring:
+    # 环境 dev|test|prod
+    profiles:
+        active: dev
+    servlet:
+        multipart:
+            max-file-size: 100MB
+            max-request-size: 100MB
+            enabled: true

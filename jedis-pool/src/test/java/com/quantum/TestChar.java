@@ -7,9 +7,9 @@ import java.io.UnsupportedEncodingException;
  * Created by zqq on 18-9-12.
  */
 public class TestChar {
-    static char c = '÷–' ;
+    static char c = '‰∏≠' ;
     static char a = 123;
-    static String str = "Œ“ «÷‹∫£—Û" ;
+    static String str = "Âë®Êµ∑Ê¥ã" ;
 
 
     public static void main(String[] args) throws UnsupportedEncodingException {
@@ -32,7 +32,7 @@ public class TestChar {
         System.out.println(s.length);
         System.out.println(new String(s).getBytes().length);
 
-        String c="÷–";
+        String c="";
         System.out.println(c.getBytes("GBK").length);
 
     }

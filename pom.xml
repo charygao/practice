@@ -13,6 +13,7 @@
         <module>tesseract</module>
         <module>spring-boot-redis</module>
         <module>jedis-pool</module>
+        <module>springboot</module>
     </modules>
 
 
